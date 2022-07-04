@@ -1,0 +1,38 @@
+@font-face {
+font-family: "IRANYekanLight";
+src: url("~assets/font/iranyekan/IRANYekanLight.ttf") format("truetype"),
+url("~assets/font/iranyekan/IRANYekanLight.ttf") format("truetype");
+}
+@font-face {
+font-family: "IRANYekanBold";
+src: url("~assets/font/iranyekan/IRANYekanBold.ttf") format("truetype"),
+url("~assets/font/iranyekan/IRANYekanBold.ttf") format("truetype");
+}
+@font-face {
+font-family: "IRANYekanExtraBlack";
+src: url("~assets/font/iranyekan/IRANYekanExtraBlack.ttf") format("truetype"),
+url("~assets/font/iranyekan/IRANYekanExtraBlack.ttf") format("truetype");
+}
+@font-face {
+font-family: "IRANYekanRegular";
+src: url("~assets/font/iranyekan/IRANYekanRegular.ttf") format("truetype"),
+url("~assets/font/iranyekan/IRANYekanRegular.ttf") format("truetype");
+}
+@font-face {
+font-family: "IRANYekanExtraBold";
+src: url("~assets/font/iranyekan/IRANYekanExtraBold.ttf") format("truetype"),
+url("~assets/font/iranyekan/IRANYekanExtraBold.ttf") format("truetype");
+}
+@font-face {
+font-family: "IRANYekanFaNum";
+src: url("~assets/font/iranyekan/IRANYekanFaNum.ttf") format("truetype"),
+url("~assets/font/iranyekan/IRANYekanFaNum.ttf") format("truetype");
+}
+html,body{
+  overflow-x: hidden;
+}
+.navbar-expand-lg .navbar-nav .nav-link{padding-right: 20px;padding-left: 20px;}
+body {direction: rtl;background-image:url(~assets/img/bodyBackground.svg);font-family: 'IRANYekanLight';background-repeat: no-repeat;background-size: cover;}
+h2{font-family: 'IRANYekanExtraBlack';font-size: 22px}
+a,p{font-family: 'IRANYekanRegular';font-style: normal;font-weight: 400;font-size: 14px;line-height: 245.23%;}
+.vuejs-countdown .digit{font-family:IRANYekanFaNum}.vuejs-countdown li .text{font-size: 0}.vuejs-countdown li .text:before{display: block;font-size: 14px;position: absolute;margin-top: 5px;font-family: 'IRANYekanRegular';} .vuejs-countdown li:first-child .text:before{content: 'روز';width: 100%}  .vuejs-countdown li:nth-child(2) .text:before{content: 'ساعت';width: 100%}  .vuejs-countdown li:nth-child(3) .text:before{content: 'دقیقه';width: 40px}  .vuejs-countdown li:nth-child(4) .text:before{content: 'ثانیه';width: 40px}
